@@ -1,0 +1,7 @@
+C:\Users\SeaLi\Desktop\musicstore\MusicStoreProject\MusicStoreProject\bin\MusicStoreProject.dll
+C:\Users\SeaLi\Desktop\musicstore\MusicStoreProject\MusicStoreProject\bin\MusicStoreProject.pdb
+C:\Users\SeaLi\Desktop\musicstore\MusicStoreProject\MusicStoreProject\bin\EntityFramework.dll
+C:\Users\SeaLi\Desktop\musicstore\MusicStoreProject\MusicStoreProject\bin\EntityFramework.xml
+C:\Users\SeaLi\Desktop\musicstore\MusicStoreProject\MusicStoreProject\obj\Debug\MusicStoreProject.dll
+C:\Users\SeaLi\Desktop\musicstore\MusicStoreProject\MusicStoreProject\obj\Debug\MusicStoreProject.pdb
+C:\Users\SeaLi\Desktop\musicstore\MusicStoreProject\MusicStoreProject\obj\Debug\MusicStoreProject.csprojResolveAssemblyReference.cache

@@ -1,0 +1,11 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/IgnoredPaths/=SCRIPTS_005CJQUERY_002D1_002E4_002E4_002EMIN_002EJS/@EntryIndexedValue">Scripts\jquery-1.4.4.min.js</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/IgnoredPaths/=STORE/@EntryIndexedValue">Store</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/IgnoredPaths/=STOREMANAGER/@EntryIndexedValue">StoreManager</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/IgnoredPaths/=VIEWS_005CSHOPPINGCART_005C_005FLAYOUT/@EntryIndexedValue">Views\ShoppingCart\_Layout</s:String>
+	
+	
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=SCRIPTS_005CJQUERY_002D1_002E4_002E4_002EMIN_002EJS/@EntryIndexedValue">Scripts\jquery-1.4.4.min.js</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=STORE/@EntryIndexedValue">Store</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=STOREMANAGER/@EntryIndexedValue">StoreManager</s:String>
+	<s:String x:Key="/Default/CodeInspection/WebPathMapping/PathsInCorrectCasing/=VIEWS_005CSHOPPINGCART_005C_005FLAYOUT/@EntryIndexedValue">Views\ShoppingCart\_Layout</s:String></wpf:ResourceDictionary>

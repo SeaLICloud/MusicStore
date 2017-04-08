@@ -1,0 +1,30 @@
+﻿@model MusicStoreProject.Models.Order
+@{
+    ViewBag.Title = "Address And Payment";
+}
+<script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>
+@using (Html.BeginForm())
+{
+    <h2>Address And Payment</h2>
+    
+    <fieldset>
+        <legend>Shipping Information</legend>
+        @Html.EditorForModel()
+    </fieldset>
+    
+    
+//    促销吗没有包括在订单类中，所以需要额外处理！
+    <fieldset>
+        <legend>Payment</legend>
+        <p>
+            We're running a promotion: all music is free with the promo code: "FREE"</p>
+        <div class="editor-label">
+            @Html.Label("Promo Code")
+        </div>
+        <div class="editor-field">
+            @Html.TextBox("PromoCode")
+        </div>
+    </fieldset>
+    <input type="submit" value="Submit Order" />
+}

@@ -1,0 +1,70 @@
+﻿@model MusicStoreProject.Models.Album
+
+@{
+    ViewBag.Title = "Create";
+}
+<style type="text/css">.editor-label { }</style>
+
+<h2>Create</h2>
+
+<script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+    <fieldset>
+        <legend>Album</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.GenreId, "Genre")
+        </div>
+        <div class="editor-field">
+            @* 使用了 HtmlHelper ，一个用于视图中生成 Html 的实用工具，使用 HtmlHelper 可以保持我们的视图清楚和易读*@
+            @Html.DropDownList("GenreId", String.Empty)
+            @* 方法的第一个参数， GenreId，告诉DropDownList 从模型对象或者 ViewBag 对象中寻找名为 GenreId 的属性值*@
+            @* 二个参数用来指出下拉列表默认选中的值。这是创建专辑的表单，所以，没有需要预先选中的值，这里传递了一个 String.Empty*@
+
+            @Html.ValidationMessageFor(model => model.GenreId)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.ArtistId, "Artist")
+        </div>
+        <div class="editor-field">
+            @Html.DropDownList("ArtistId", String.Empty)
+            @Html.ValidationMessageFor(model => model.ArtistId)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Title)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Title)
+            @Html.ValidationMessageFor(model => model.Title)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Price)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Price)
+            @Html.ValidationMessageFor(model => model.Price)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.AlbumArtUrl)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.AlbumArtUrl)
+            @Html.ValidationMessageFor(model => model.AlbumArtUrl)
+        </div>
+
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
